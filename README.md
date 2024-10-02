@@ -11,7 +11,7 @@
 
 ## Integrantes: <a href="https://www.linkedin.com/in/victorbarq/">João Vitor Cenedeze</a>, <a href="https://www.linkedin.com/in/victorbarq/">Felime Lima</a>, <a href="https://www.linkedin.com/in/victorbarq/">Lucas Batista</a>, <a href="https://www.linkedin.com/in/victorbarq/">Leon</a>
 
-## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Dr. Victor Von Doom</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Saitama</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Strange</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Yoda</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Gero</a>
+## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Airmar</a>, <a href="https://www.linkedin.com/in/victorbarq/">Victor</a>, <a href="https://www.linkedin.com/in/victorbarq/">Savino</a>, <a href="https://www.linkedin.com/in/victorbarq/">Chico</a>, <a href="https://www.linkedin.com/in/victorbarq/">José Boesso</a>
 
 ## Descrição
 
