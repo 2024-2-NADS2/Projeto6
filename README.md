@@ -17,12 +17,10 @@
 
 ![](https://github.com/2024-2-NADS2/Projeto6/blob/main/IMG/guia%20de%20estilo.png)
 
-ele faz 
 <br><br>
-Meu projeto ajuda estudantes FECAP a configurarem seus githubs.
+Nosso projeto se baseia na criação de um site direcionado a doações de livros. Será como um site de compras e vendas, mas com tudo de graça. O intuito é que o indivíduo que quer doar, cadastre seu livro em sua respectiva área (seja ela de educação, linguagem, história, entre outros...) e que quem queira receber a doação faça o seu cadastro pessoal e consiga pegar o livro! 
 <br><br>
-May the force be with you!
-<br><br>
+
 
 ## 🛠 Estrutura de pastas
 
