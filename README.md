@@ -57,8 +57,9 @@ Há também 4 pastas que seguem da seguinte forma:
 
 <b>Android:</b>
 
-Faça o Download do JOGO.apk no seu celular.
-Execute o APK e siga as instruções de seu telefone.
+Não há instalação!
+Encontre o index.html na pasta executáveis e execute-o como uma página WEB (através de algum browser).
+
 
 ```sh
 Coloque código do prompt de comnando se for necessário
@@ -66,8 +67,8 @@ Coloque código do prompt de comnando se for necessário
 
 <b>Windows:</b>
 
-Não há instalação! Apenas executável!
-Encontre o JOGO.exe na pasta executáveis e execute-o como qualquer outro programa.
+Não há instalação!
+Encontre o index.html na pasta executáveis e execute-o como uma página WEB (através de algum browser).
 
 ```sh
 Coloque código do prompt de comnando se for necessário
@@ -91,6 +92,16 @@ make install
 npm test
 Coloque código do prompt de comnando se for necessário
 ```
+
+## 🗃 Histórico de lançamentos
+
+A cada atualização os detalhes devem ser lançados aqui.
+
+* 0.1.1 - 01/10/2024
+    * Piloto página "_Home_" -  HTML & CSS;
+    * Design prototipado;
+
+    * Trabalho em andamento
 
 ## 🗃 Histórico de lançamentos
 
