@@ -18,7 +18,7 @@
 ![](https://github.com/2024-2-NADS2/Projeto6/blob/main/IMG/guia%20de%20estilo.png)
 
 <br><br>
-Nosso projeto se baseia na criação de um site direcionado a doações de livros. Será como um site de compras e vendas, mas com tudo de graça. O intuito é que o indivíduo que quer doar, cadastre seu livro em sua respectiva área (seja ela de educação, linguagem, história, entre outros...) e que quem queira receber a doação faça o seu cadastro pessoal e consiga pegar o livro! 
+  Nosso projeto (Eco-Materialize) consiste em uma plataforma web voltada para arrecadação de doações financeiras (R$) e materiais escolares em bom estado. O objetivo é garantir o acesso à educação de qualidade a todas as pessoas de diferentes classes sociais que enfrentam dificuldades. Além de promover a educação inclusiva, a plataforma também considera a preservação ambiental, incentivando a reutilização de materiais e minimizando o desperdício. Desta forma, buscamos impactar positivamente a sociedade e o meio ambiente, promovendo sustentabilidade e igualdade de oportunidades.
 <br><br>
 
 
