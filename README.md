@@ -9,7 +9,7 @@
 
 ## ECO-Materalize
 
-## Integrantes: <a href="https://www.linkedin.com/in/victorbarq/">João Vitor Cenedeze</a>, <a href="https://www.linkedin.com/in/victorbarq/">Felime Lima</a>, <a href="https://www.linkedin.com/in/victorbarq/">Lucas Batista</a>, <a href="https://www.linkedin.com/in/victorbarq/">Leon</a>
+## Integrantes: <a href="https://www.linkedin.com/in/victorbarq/">João Vitor Cenedeze</a>, <a href="https://www.linkedin.com/in/victorbarq/">Felime Lima</a>, <a href="https://www.linkedin.com/in/victorbarq/">Lucas Batista</a>, <a href="https://www.linkedin.com/in/victorbarq/">Ribeiro Boaventura</a>
 
 ## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Airmar</a>, <a href="https://www.linkedin.com/in/victorbarq/">Victor</a>, <a href="https://www.linkedin.com/in/victorbarq/">Savino</a>, <a href="https://www.linkedin.com/in/victorbarq/">Chico</a>, <a href="https://www.linkedin.com/in/victorbarq/">José Boesso</a>
 
@@ -107,9 +107,9 @@ A cada atualização os detalhes devem ser lançados aqui.
     * Trabalho em andamento
 
 ## 📋 Licença/License
-Zoopi © 2024 by Annie Augusto Bissoli; Deborah Pavanelli Colicchio; Lucas Gomes de Souza; Matheus Antero da Silva is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+Zoopi © 2024 by João Vitor Cenedeze; Felipe Lima; Lucas Batista; Ribeiro Boaventura is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
 HTML:
-<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/2024-2-NADS2/Projeto9">Zoopi</a> by <span property="cc:attributionName">Annie Augusto Bissoli; Deborah Pavanelli Colicchio; Lucas Gomes de Souza; Matheus Antero da Silva </span> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p>
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/2024-2-NADS2/Projeto9">Zoopi</a> by <span property="cc:attributionName">João Vitor Cenedeze; Felipe Lima; Lucas Batista; Ribeiro Boaventura </span> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p>
 
 
 XML:
@@ -122,10 +122,10 @@ XML:
             <xapRights:Marked>True</xapRights:Marked>
             <xapRights:Owner>
                 <rdf:Bag>
-                    <rdf:li>Annie Augusto Bissoli; Deborah Pavanelli Colicchio; Lucas Gomes de Souza; Matheus Antero da Silva </rdf:li>
+                    <rdf:li>João Vitor Cenedeze; Felipe Lima; Lucas Batista; Ribeiro Boaventura  </rdf:li>
                 </rdf:Bag>
             </xapRights:Owner>
-            <xapRights:WebStatement rdf:resource='https://github.com/2024-2-NADS2/Projeto9'/>
+            <xapRights:WebStatement rdf:resource='https://github.com/2024-2-NADS2/ProjetoECOMateralize'/>
             <xapRights:UsageTerms>
                 <rdf:Alt>
                   <rdf:li xml:lang='x-default'>This work is licensed under &lt;a href=&quot;https://creativecommons.org/licenses/by-nc-sa/4.0/&quot;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International&lt;/a&gt;</rdf:li>
@@ -133,7 +133,7 @@ XML:
                 </rdf:Alt>
             </xapRights:UsageTerms>
             <cc:license rdf:resource='https://creativecommons.org/licenses/by-nc-sa/4.0/'/>
-            <cc:attributionName>Annie Augusto Bissoli; Deborah Pavanelli Colicchio; Lucas Gomes de Souza; Matheus Antero da Silva </cc:attributionName>
+            <cc:attributionName>João Vitor Cenedeze; Felipe Lima; Lucas Batista; Ribeiro Boaventura  </cc:attributionName>
             <dc:title>
                 <rdf:Alt>
                   <rdf:li xml:lang='x-default'>Zoopi</rdf:li>
