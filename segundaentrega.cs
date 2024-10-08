@@ -5,8 +5,7 @@ class EcoMaterialize
     static void Main()
     {
         int n = 0;
-
-        // Tentativa de leitura do número de livros
+        
         try
         {
             Console.WriteLine("Quantos livros você deseja pegar?");
@@ -15,7 +14,7 @@ class EcoMaterialize
         catch (FormatException)
         {
             Console.WriteLine("Entrada inválida! Será assumido que você deseja pegar 1 livro.");
-            n = 1; // Valor padrão caso a entrada seja inválida
+            n = 1;
         }
 
         for (int i = 0; i < n; i++)
@@ -87,7 +86,7 @@ class EcoMaterialize
                     }
                 }
             }
-            catch (Exception ex) // Captura qualquer erro ocorrido durante a execução
+            catch (Exception ex)
             {
                 Console.WriteLine("Ocorreu um erro durante a execução: " + ex.Message);
                 Console.WriteLine("Direcionando para a página principal para evitar problemas.");
