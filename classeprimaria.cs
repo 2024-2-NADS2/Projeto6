@@ -7,7 +7,6 @@ class EcoMaterialize
     private string historia;
     private string tecnologia;
 
-    //GET
     public string GetEcoMaterialize()
     {
         return ecoMaterialize;
@@ -29,7 +28,6 @@ class EcoMaterialize
         return tecnologia;
     }
 
-    //SET
     public void SetEcoMaterialize(string novaEcoMaterialize)
     {
         ecoMaterialize = novaEcoMaterialize;
@@ -60,7 +58,6 @@ class EcoMaterialize
         tecnologia = novaTecnologia;
     }
 
-    //Funções da classe
     public void Requisitos()
     {
         Console.WriteLine("EcoMaterialize: {0}, Escolar: {1}, Estrangeiro: {2}, História: {3}, Tecnologia: {4}",
