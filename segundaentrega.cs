@@ -1,84 +1,99 @@
 using System;
 
-    class HelloWorld
+class EcoMaterialize
+{
+    static void Main()
     {
-        static void Main()
-        {
-            int n = 0;
-            string ecoMaterialize = "";
-            string escolar = "";
-            string estrangeiro = "";
-            string historia = "";
-            string tecnologia = "";
+        int n = 0;
 
-            Console.WriteLine("Quantos livros você deseja pegar ?");
+        // Tentativa de leitura do nÃºmero de livros
+        try
+        {
+            Console.WriteLine("Quantos livros vocÃª deseja pegar?");
             n = Convert.ToInt32(Console.ReadLine());
-            for (int i = 0; i < n; i++)
+        }
+        catch (FormatException)
+        {
+            Console.WriteLine("Entrada invÃ¡lida! SerÃ¡ assumido que vocÃª deseja pegar 1 livro.");
+            n = 1; // Valor padrÃ£o caso a entrada seja invÃ¡lida
+        }
+
+        for (int i = 0; i < n; i++)
+        {
+            try
             {
-                Console.WriteLine("Você tem algum tipo de livro em mente?");
+                Console.WriteLine("VocÃª tem algum tipo de livro em mente? (sim/nÃ£o)");
                 string resposta = Console.ReadLine().ToLower();
 
-                if (resposta == "não")
+                if (resposta == "nÃ£o")
                 {
-                    Console.WriteLine("Você será direcionado para a página principal");
+                    Console.WriteLine("VocÃª serÃ¡ direcionado para a pÃ¡gina principal.");
                     break;
                 }
 
                 if (resposta == "sim")
                 {
-                    Console.WriteLine("Digite qual tipo de material você deseja pegar?");
+                    Console.WriteLine("Digite qual tipo de material vocÃª deseja pegar (escolar/tecnologia/estrangeiro/historia):");
                     string tipoMaterial = Console.ReadLine().ToLower();
 
-                    if (tipoMaterial == "escolar")
+                    switch (tipoMaterial)
                     {
-                        Console.WriteLine("Você será direcionado para a aba de material escolar");
-                    }
-                    else if (tipoMaterial == "tecnologia")
-                    {
-                        Console.WriteLine("Você será direcionado para a aba de material tecnológico");
-                    }
-                    else if (tipoMaterial == "estrangeiro")
-                    {
-                        Console.WriteLine("Você será direcionado para a aba de material estrangeiro");
-                    }
-                    else if (tipoMaterial == "historia")
-                    {
-                        Console.WriteLine("Você será direcionado para a aba de livros com história");
-                        Console.WriteLine("Você tem preferência de gênero? (sim/não)");
-                        string generoResposta = Console.ReadLine().ToLower();
+                        case "escolar":
+                            Console.WriteLine("VocÃª serÃ¡ direcionado para a aba de material escolar.");
+                            break;
+                        case "tecnologia":
+                            Console.WriteLine("VocÃª serÃ¡ direcionado para a aba de material tecnolÃ³gico.");
+                            break;
+                        case "estrangeiro":
+                            Console.WriteLine("VocÃª serÃ¡ direcionado para a aba de material estrangeiro.");
+                            break;
+                        case "historia":
+                            Console.WriteLine("VocÃª serÃ¡ direcionado para a aba de livros com histÃ³ria.");
+                            Console.WriteLine("VocÃª tem preferÃªncia de gÃªnero? (sim/nÃ£o)");
+                            string generoResposta = Console.ReadLine().ToLower();
 
-                        if (generoResposta == "não")
-                        {
-                            Console.WriteLine("Você será direcionado para a aba principal de livros com história");
-                        }
-                        else if (generoResposta == "sim")
-                        {
-                            Console.WriteLine("Qual gênero você prefere? (terror/narrativo/ação/romance)");
-                            string genero = Console.ReadLine().ToLower();
+                            if (generoResposta == "nÃ£o")
+                            {
+                                Console.WriteLine("VocÃª serÃ¡ direcionado para a aba principal de livros com histÃ³ria.");
+                            }
+                            else if (generoResposta == "sim")
+                            {
+                                Console.WriteLine("Qual gÃªnero vocÃª prefere? (terror/narrativo/aÃ§Ã£o/romance)");
+                                string genero = Console.ReadLine().ToLower();
 
-                            if (genero == "terror")
-                            {
-                                Console.WriteLine("Você será direcionado para a aba de terror");
+                                switch (genero)
+                                {
+                                    case "terror":
+                                        Console.WriteLine("VocÃª serÃ¡ direcionado para a aba de terror.");
+                                        break;
+                                    case "narrativo":
+                                        Console.WriteLine("VocÃª serÃ¡ direcionado para a aba de narrativo.");
+                                        break;
+                                    case "aÃ§Ã£o":
+                                        Console.WriteLine("VocÃª serÃ¡ direcionado para a aba de aÃ§Ã£o.");
+                                        break;
+                                    case "romance":
+                                        Console.WriteLine("VocÃª serÃ¡ direcionado para a aba de romance.");
+                                        break;
+                                    default:
+                                        Console.WriteLine("GÃªnero nÃ£o encontrado. Voltando para a aba principal.");
+                                        break;
+                                }
                             }
-                            else if (genero == "narrativo")
-                            {
-                                Console.WriteLine("Você será direcionado para a aba de narrativo");
-                            }
-                            else if (genero == "ação")
-                            {
-                                Console.WriteLine("Você será direcionado para a aba de ação");
-                            }
-                            else if (genero == "romance")
-                            {
-                                Console.WriteLine("Você será direcionado para a aba de romance");
-                            }
-                        }
+                            break;
+                        default:
+                            Console.WriteLine("Tipo de material nÃ£o reconhecido. Voltando para a pÃ¡gina principal.");
+                            break;
                     }
-
-                    EcoMaterialize selecionado = new EcoMaterialize(ecoMaterialize, escolar, estrangeiro, historia, tecnologia);
-                    selecionado.Requisitos();
                 }
             }
+            catch (Exception ex) // Captura qualquer erro ocorrido durante a execuÃ§Ã£o
+            {
+                Console.WriteLine("Ocorreu um erro durante a execuÃ§Ã£o: " + ex.Message);
+                Console.WriteLine("Direcionando para a pÃ¡gina principal para evitar problemas.");
+            }
         }
+
+        Console.WriteLine("ExecuÃ§Ã£o finalizada. Obrigado!");
     }
-    
+}
