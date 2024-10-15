@@ -1,0 +1,61 @@
+/*Style MAIN*/
+.main{
+    background-image: url(Banner2.png);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-box{
+    border: 5px solid #FFD223;
+    width: 70%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.main-box h1{
+    font-size: 60px;
+    font-family: cursive;
+    color: #FFF;
+    font-weight: 500;
+}
+.main-box button{
+    position: absolute;
+    bottom: 0;
+    width: 250px;
+    height: 90px;
+    border: none;
+    background-color: #FFD223;
+    font-family: cursive;
+    font-size: 32px;
+    font-weight: 300;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.main-box button:hover{
+    background-color: #ffda45;
+}
+
+.div-txt{
+    width: 100%;
+    height: 100px;
+    background-color: #00A8A0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-txt h3{
+   font-family: cursive;
+   color: #FFF;
+   font-size: 22px;
+   font-weight: 300;
+}
+/*Style MAIN*/
