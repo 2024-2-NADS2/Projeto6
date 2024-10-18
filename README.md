@@ -15,17 +15,13 @@
 ## Descrição
 
 <p align="center">
-<img src="IMG/guia de estilo.png" border="0">
+<img src="IMG/Logo.png" border="0">
   
 </p>
 <p>
 </p>
 
-A adoção de animais é uma prática que tem ganhado cada vez mais destaque na sociedade contemporânea, especialmente em um cenário onde a população de animais abandonados cresce de forma alarmante. Nesse contexto, surge o projeto "Pet Hero", uma plataforma digital desenvolvida para facilitar a conexão entre Organizações Não Governamentais (ONGs) e potenciais adotantes, promovendo a adoção responsável e consciente de pets. O "Pet Hero" visa criar um ambiente virtual que simplifique a busca pelo animal de estimação ideal, levando em consideração as necessidades e preferências das famílias e as características dos animais disponíveis para adoção.
-
-Além da promoção da adoção, o site também terá um espaço dedicado à doação de itens essenciais, como ração e brinquedos, que contribuirão para o bem-estar dos animais em abrigos e em lares temporários. Através de uma interface intuitiva e amigável, o projeto busca não apenas aumentar o número de adoções, mas também conscientizar a população sobre a importância do cuidado e do amor pelos animais, ressaltando a necessidade de um lar adequado e responsável.
-
-A proposta do "Pet Hero" se alinha a uma crescente demanda social por soluções que integrem tecnologia e solidariedade, oferecendo um modelo que pode ser replicado por diferentes ONGs, ampliando assim o alcance e a efetividade das ações voltadas para a proteção e adoção de animais. Este trabalho apresenta uma análise detalhada das funcionalidades do site, bem como as metodologias adotadas para garantir a sua eficácia e relevância no contexto atual.
+Nosso projeto (Eco-Materialize) consiste em uma plataforma web voltada para arrecadação de doações financeiras (R$) e materiais escolares em bom estado. O objetivo é garantir o acesso à educação de qualidade a todas as pessoas de diferentes classes sociais que enfrentam dificuldades. Além de promover a educação inclusiva, a plataforma também considera a preservação ambiental, incentivando a reutilização de materiais e minimizando o desperdício. Desta forma, buscamos impactar positivamente a sociedade e o meio ambiente, promovendo sustentabilidade e igualdade de oportunidades.
 
 ## 🛠 Estrutura de pastas
 
@@ -37,11 +33,11 @@ A proposta do "Pet Hero" se alinha a uma crescente demanda social por soluções
 &emsp;|-->Pagina_Home.png<br>
 |-->src<br>
   &emsp;|-->Backend<br>
-     &emsp;|-->PetHero.sln<br>
+     &emsp;|-->ECO-MATERALIZE.sln<br>
   &emsp;|-->Frontend<br>
-     &emsp;|-->PetHero.js<br>
-      &emsp;|-->PetHero.html<br>
-       &emsp;|-->PetHero.css<br>
+     &emsp;|-->ECO-MATERALIZE.js<br>
+      &emsp;|-->ECO-MATERALIZE.html<br>
+       &emsp;|-->ECO-MATERALIZE.css<br>
          &emsp;|-->Cadastro.css<br>
              &emsp;|-->Cadastro.html<br>
                  &emsp;|-->.vscode<br>
