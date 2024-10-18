@@ -60,16 +60,35 @@ Há também 4 pastas que seguem da seguinte forma:
 Não é necessário para o momento.
 
 ## 🎨 Figma
-Clique no link para ter acesso ao Figma da Pet Hero: https://www.figma.com/design/LOzkfRIS5qGdcnKGuShdS6/GUIA-DE-ESTILO?node-id=0-1&node-type=canvas&t=niS7wcun9wPuSQAZ-0
-
+Clique no link para ter acesso ao Figma da ECO-MATERALIZE: https://www.figma.com/design/78ObN2cpkk9v4byUwxt13U/GUIA-DO-ESTILO?node-id=0-1&t=Ow1qDd5EZVHmnLPi-1
 ## 🗃 Histórico de lançamentos
 
 A cada atualização os detalhes devem ser lançados aqui.
-
-* 0.1.0 - 02/10/2024
-    * Primeira parte do projeto entregue. Segunda parte em andamento.
-* 0.0.1 - 04/09/2024
-    * Projeto em andamento.
+* 0.2.6 - 10/10/2024
+    * Backlog das classes e seus atributos.
+* 0.2.5 - 22/09/2024
+    * Criação do JS.
+    * Teste de implementação e validação dos arquivos no VSCode.
+* 0.2.4 - 29/09/2024
+    * Projeto das páginas de cadastro e log-in feito.
+* 0.2.3 - 19/09/2024
+    * Mapa de navegação do site definido.
+    * Figma do projeto atualizado.
+* 0.2.2 - 15/09/2024
+    * Ideia para a logo do projeto.
+* 0.2.1 - 05/09/2024
+    * Primeiro protótipo do HTML e do CSS lançados
+    * Definição das ideias de card e banner do projeto.
+* 0.2.0 - 03/09/2024
+    * Definição do projeto no Figma e ideia do banner implementada.
+    * Definição de atributos da classe Evento.
+* 0.1.1 - 28/08/2024
+    * Definição da paleta de cores.
+* 0.1.0 - 22/08/2024
+    * Definição da ideia e ODS do projeto.
+    * Wireframe definido por membros do grupo.
+* 0.0.1 - 10/08/2024
+    * Início do projeto.
 
 ## 📋 Licença/License
 <p xmlns:cc="http://creativecommons.org/ns#" >Este trabalho está licenciado sob <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>
@@ -78,8 +97,7 @@ A cada atualização os detalhes devem ser lançados aqui.
 
 Aqui estão as referências usadas no projeto.
 
-1. <https://github.com/iuricode/readme-template>
-2. <https://github.com/gabrieldejesus/readme-model>
-3. <https://creativecommons.org/share-your-work/>
-4. <https://freesound.org/>
-5. Músicas por: <a href="https://freesound.org/people/DaveJf/sounds/616544/"> DaveJf </a> e <a href="https://freesound.org/people/DRFX/sounds/338986/"> DRFX </a> ambas com Licença CC 0.
+1. <https://github.com/iuricode/readme-template](https://amigoedu.com.br/blogdoamigo/doar-livros-usados>
+2. <https://github.com/gabrieldejesus/readme-model](https://leituraparatodossp.com.br/>
+3. <https://creativecommons.org/share-your-work/](https://capital.sp.gov.br/web/cultura/w/bibliotecas/servicos/9705>
+
