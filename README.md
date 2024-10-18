@@ -15,7 +15,7 @@
 ## Descrição
 
 <p align="center">
-<img src="https://files.fm/u/gw8cxzfswp" alt="ECO-MATERALIZE" border="0">
+<img src="IMG/guia de estilo.png" border="0">
   
 </p>
 <p>
