@@ -1,12 +1,11 @@
 using System;
 
-class EcoMaterialize
+class EcoMaterialize01
 {
     static void Main()
     {
         Console.WriteLine("Bem-vindo à plataforma Eco-Materialize!");
 
-        // Menu para escolher ser doador ou receptor
         Console.WriteLine("Você deseja continuar como doador ou receptor?");
         Console.WriteLine("1 - Doador");
         Console.WriteLine("2 - Receptor");
@@ -25,13 +24,11 @@ class EcoMaterialize
             Console.WriteLine("Opção inválida! Encerrando programa.");
         }
 
-        // Avaliação no final do processo
         Avaliacao();
 
         Console.WriteLine("Execução finalizada. Obrigado!");
     }
 
-    // Função de cadastro para doadores
     static void CadastroDoador()
     {
         Console.WriteLine("\nCadastro de Doador");
@@ -75,7 +72,6 @@ class EcoMaterialize
         }
     }
 
-    // Função de cadastro para receptores
     static void CadastroReceptor()
     {
         Console.WriteLine("\nCadastro de Receptor");
@@ -98,28 +94,78 @@ class EcoMaterialize
         Console.WriteLine("Por favor, insira seu CPF (apenas números):");
         string cpf = Console.ReadLine();
 
-        Console.WriteLine("Você está precisando de doação financeira ou material? (financeira/material)");
-        string tipoNecessidade = Console.ReadLine().ToLower();
+        Console.WriteLine("Quantos livros você deseja pegar?");
+        int n = Convert.ToInt32(Console.ReadLine());
 
-        if (tipoNecessidade == "financeira")
+        for (int i = 0; i < n; i++)
         {
-            Console.WriteLine("Qual valor de doação você está precisando em R$?");
-            string valorNecessidade = Console.ReadLine();
-            Console.WriteLine($"\nEntendido, {nome}. Você solicitou uma doação de R${valorNecessidade}. Iremos trabalhar para ajudar você!");
-        }
-        else if (tipoNecessidade == "material")
-        {
-            Console.WriteLine("Por favor, descreva os materiais que você está precisando:");
-            string descricaoNecessidade = Console.ReadLine();
-            Console.WriteLine($"\nEntendido, {nome}. Você solicitou os seguintes materiais: {descricaoNecessidade}. Faremos o possível para ajudar você!");
-        }
-        else
-        {
-            Console.WriteLine("Tipo de necessidade inválido! Encerrando cadastro.");
+            Console.WriteLine("Você tem algum tipo de livro em mente? (sim/não)");
+            string resposta = Console.ReadLine().ToLower();
+
+            if (resposta == "não")
+            {
+                Console.WriteLine("Você será direcionado para a página principal.");
+                break;
+            }
+
+            if (resposta == "sim")
+            {
+                Console.WriteLine("Digite qual tipo de material você deseja pegar (escolar/tecnologia/estrangeiro/história):");
+                string tipoMaterial = Console.ReadLine().ToLower();
+
+                switch (tipoMaterial)
+                {
+                    case "escolar":
+                        Console.WriteLine("Você será direcionado para a aba de material escolar.");
+                        break;
+                    case "tecnologia":
+                        Console.WriteLine("Você será direcionado para a aba de material tecnológico.");
+                        break;
+                    case "estrangeiro":
+                        Console.WriteLine("Você será direcionado para a aba de material estrangeiro.");
+                        break;
+                    case "história":
+                        Console.WriteLine("Você será direcionado para a aba de livros com história.");
+                        Console.WriteLine("Você tem preferência de gênero? (sim/não)");
+                        string generoResposta = Console.ReadLine().ToLower();
+
+                        if (generoResposta == "não")
+                        {
+                            Console.WriteLine("Você será direcionado para a aba principal de livros com história.");
+                        }
+                        else if (generoResposta == "sim")
+                        {
+                            Console.WriteLine("Qual gênero você prefere? (terror/narrativo/ação/romance)");
+                            string genero = Console.ReadLine().ToLower();
+
+                            switch (genero)
+                            {
+                                case "terror":
+                                    Console.WriteLine("Você será direcionado para a aba de terror.");
+                                    break;
+                                case "narrativo":
+                                    Console.WriteLine("Você será direcionado para a aba de narrativo.");
+                                    break;
+                                case "ação":
+                                    Console.WriteLine("Você será direcionado para a aba de ação.");
+                                    break;
+                                case "romance":
+                                    Console.WriteLine("Você será direcionado para a aba de romance.");
+                                    break;
+                                default:
+                                    Console.WriteLine("Gênero não encontrado. Voltando para a aba principal.");
+                                    break;
+                            }
+                        }
+                        break;
+                    default:
+                        Console.WriteLine("Tipo de material não encontrado.");
+                        break;
+                }
+            }
         }
     }
 
-    // Função de avaliação no final do processo
     static void Avaliacao()
     {
         Console.WriteLine("\nPor favor, avalie sua experiência com a plataforma Eco-Materialize.");
