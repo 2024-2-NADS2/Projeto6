@@ -1,0 +1,392 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Sans-serif,"Crafty Girls", cursive;
+}
+/*Configs Gerais*/
+
+
+/*Style HEADER*/
+.img-logo{
+    max-width: 200px;
+    max-height: 180px;
+}
+.header{
+    width: 100%;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    max-height: 110px;
+    margin: auto;
+}
+.header-nav nav ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+.header-nav nav ul a{
+    text-decoration: none;
+    color:#162C5A;
+    font-weight: 600;
+    font-size: 15px;
+    transition: all 0.3s ease;
+}
+.header-nav nav ul a:hover{
+    color: #00A8A0;
+}
+.header-button button{
+    width: 105px;
+    height: 40px;
+    border: none;
+    border-radius: 25px;
+    font-size: 12px;
+    font-weight: 800;
+    color:#162C5A;
+    background-color: #FFD223;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.header-button button:hover{
+    background-color: #ffda45;
+}
+/*Style HEADER*/
+
+
+/*Style Banner-Container*/
+.banner-container{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    background-image: url(IMG/CriancasComMapa2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+}
+.banner-container::before{
+    content: "";
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.686);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+.banner-container h1{
+    font-family: cursive;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+/*Style Banner-Container*/
+
+
+/*Style Main-Container*/
+.main-container{
+    width: 100%;
+    height: 550px;
+}
+.main-container .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.main-container .container .txt{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 100%;
+    padding: 50px 50px;
+}
+.main-container .container .txt h1{
+    font-size: 45px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #162C5A;
+    padding-bottom: 15px;
+}
+.main-container .container .txt p{
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    width: 90%;
+}
+.main-container .container .txt .icons{
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+}
+.main-container .container .txt .icons i{
+    color: #fff;
+    font-size: 25px;
+    background-color: black;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+.main-container .container .txt .icons i:hover{
+    opacity: 0.9;
+}
+
+.main-container .container .mapa-iterativo{
+    display: flex;
+    width: 60%;
+    padding: 35px 50px;
+}
+.main-container .container .mapa-iterativo .mapa{
+    width: 60%;
+    height: 100%;
+}
+.main-container .container .mapa-iterativo .mapa iframe{
+    width: 100%;
+    height: 100%;
+}
+.main-container .container .mapa-iterativo .caixa-box{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color:#00A8A0;
+    align-items: center;
+}
+.main-container .container .mapa-iterativo .caixa-box h3{
+    color: #fff;
+    padding: 40px 0;
+    font-weight: 300;
+    
+}
+.main-container .container .mapa-iterativo .caixa-box p{
+    display: flex;
+    text-align: left;
+    align-items: center;
+    color: #FFF;
+    font-weight: 900;
+    padding: 12px 0;
+    font-size: 14px;
+}
+.main-container .container .mapa-iterativo .caixa-box i{
+    font-size:25px;
+    padding: 0 5px;
+    color: #fff;
+}
+.main-container .container .mapa-iterativo .caixa-box .caixa-box-button{
+    margin-top:55px;
+}
+.main-container .container .mapa-iterativo .caixa-box .caixa-box-button button{
+    width: 200px;
+    height: 30px;
+    border:none;
+    border-radius: 15px;
+    background-color: #FF9100;
+    font-weight: 300;
+    color: #F8F9FC;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.main-container .container .mapa-iterativo .caixa-box .caixa-box-button button:hover{
+    background-color: #05839f;
+    border: 1px solid #F8F9FC;
+    transform: scale(1.08);
+}
+/*Style Main-Container*/
+
+
+
+
+/*Style Container-Doe-Agora*/
+.container-doe-agora{
+    margin-top: 50px;
+    width: 100%;
+    height: 500px;
+    background-image: url(IMG/criançasestudando1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.container-doe-agora::before{
+    content: '';
+    background-color: #ed4e2e9e;
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+.container-doe-agora .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-doe-agora .container h1{
+    width: 65%;
+    text-align: center;
+    font-family: cursive;
+    color: #fff;
+    font-size: 40px;
+}
+.container-doe-agora .container button{
+    margin-top: 40px;
+    width: 220px;
+    height: 60px;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    color: #EA4C2D;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.container-doe-agora .container button i{
+    padding: 0 5px;
+}
+.container-doe-agora .container button:hover{
+    transform: scale(1.10);
+}
+/*Style Container-Doe-Agora*/
+
+
+
+
+
+
+
+/*Style Footer-Container*/
+.footer-container{
+    margin-top: 50px;
+    background-color:yellow;
+    padding: 70px 0;
+}
+.footer-container ul{
+    list-style: none;
+}
+.footer-container .container{
+    max-width: 1170px;
+    margin: auto;
+}
+.footer-container .container .row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-container .container .row .footer-colunas{
+    width: 25%;
+    padding: 0 30px;
+}
+.footer-container .container .row .footer-colunas-colunas-padding{
+    width: 25%;
+    padding: 0 50px;
+}
+.footer-container .container .row .footer-colunas h4{
+    font-size: 18px;
+    color: #FFF;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    font-weight: 500;
+    position: relative; 
+}
+.footer-container .container .row .footer-colunas-colunas-padding h4{
+    font-size: 18px;
+    color: #FFF;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    font-weight: 500;
+    position: relative; 
+}
+.footer-container .container .row .footer-colunas h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    background-color: #00A8A0;
+    height: 2px;
+    box-sizing: border-box;
+    width: 55px;
+}
+.footer-container .container .row .footer-colunas-colunas-padding h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    background-color: #00A8A0;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-container .container .row .footer-colunas ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.footer-container .container .row .footer-colunas-colunas-padding ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-container .container .row .footer-colunas p{
+    font-size: 16px;
+    color: #FFF;
+    font-weight: 500;
+}
+.footer-container .container .row .footer-colunas a{
+    font-size: 16px;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+.footer-container .container .row .footer-colunas-colunas-padding a{
+    font-size: 16px;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+.footer-container .container .row .footer-colunas-colunas-padding a:hover{
+    padding-left: 8px;
+}
+.footer-container .container .row .footer-colunas .social-links a{
+    display: inline-flex;
+    height: 40px;
+    width: 40px;
+    background-color:black;
+    margin: 0 10px 10px 0;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.footer-container .container .row .footer-colunas .social-links a:hover{
+    color: black;
+    background-color: #fff;
+}
+.direitos-autorais{
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.156);
+    padding: 5px 0;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
