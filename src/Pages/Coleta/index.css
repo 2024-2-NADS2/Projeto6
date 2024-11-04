@@ -1,0 +1,220 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*Style Banner-Container*/
+.banner-container{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    background-image: url('/public/CriancasComMapa2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+}
+.banner-container::before{
+    content: "";
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.686);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+.banner-container h1{
+    font-family: cursive;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+/*Style Banner-Container*/
+
+
+
+/*Style Mainnn-Container*/
+.mainnn-container{
+    width: 100%;
+    height: 600px;
+}
+.mainnn-container .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.mainnn-container .container .txt{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 100%;
+    padding: 50px 50px;
+}
+.mainnn-container .container .txt h1{
+    font-size: 45px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #162C5A;
+    padding-bottom: 15px;
+}
+.mainnn-container .container .txt p{
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    width: 90%;
+}
+.mainnn-container .container .txt .icons{
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+}
+.mainnn-container .container .txt .icons i{
+    color: #fff;
+    font-size: 25px;
+    background-color: black;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.mainnn-container .container .txt .icons i:hover{
+    opacity: 0.8;
+}
+
+.mainnn-container .container .mapa-iterativo{
+    display: flex;
+    width: 60%;
+    padding: 50px 50px;
+}
+.mainnn-container .container .mapa-iterativo .mapa{
+    width: 60%;
+    height: 100%;
+}
+.mainnn-container .container .mapa-iterativo .mapa iframe{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.mainnn-container .container .mapa-iterativo .caixa-box{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color:#00A8A0;
+    align-items: center;
+}
+.mainnn-container .container .mapa-iterativo .caixa-box h3{
+    color: #fff;
+    padding: 40px 0;
+    font-weight: 300;
+    
+}
+.mainnn-container .container .mapa-iterativo .caixa-box p{
+    display: flex;
+    text-align: left;
+    align-items: center;
+    color: #FFF;
+    font-weight: 900;
+    padding: 12px 0;
+    font-size: 14px;
+}
+.mainnn-container .container .mapa-iterativo .caixa-box i{
+    font-size:25px;
+    padding: 0 5px;
+    color: #fff;
+}
+.mainnn-container .container .mapa-iterativo .caixa-box .caixa-box-button{
+    margin-top:70px;
+}
+.mainnn-container .container .mapa-iterativo .caixa-box .caixa-box-button button{
+    width: 200px;
+    height: 30px;
+    border:none;
+    border-radius: 15px;
+    background-color: #FF9100;
+    font-weight: 300;
+    color: #F8F9FC;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.mainnn-container .container .mapa-iterativo .caixa-box .caixa-box-button button:hover{
+    background-color: #05839f;
+    border: 1px solid #F8F9FC;
+    transform: scale(1.08);
+}
+/*Style Mainnn-Container*/
+
+
+
+
+/*Style Container-Doe-Agora*/
+.container-doe-agora{
+    margin-top: 50px;
+    width: 100%;
+    height: 500px;
+    background-image: url('/public/criançasestudando1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.container-doe-agora::before{
+    content: '';
+    background-color: #ed4e2e9e;
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+.container-doe-agora .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-doe-agora .container h1{
+    width: 65%;
+    text-align: center;
+    font-family: cursive;
+    color: #fff;
+    font-size: 40px;
+}
+.container-doe-agora .container button{
+    margin-top: 40px;
+    width: 220px;
+    height: 60px;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    color: #EA4C2D;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.container-doe-agora .container button i{
+    padding: 0 5px;
+}
+.container-doe-agora .container button:hover{
+    transform: scale(1.10);
+}
+/*Style Container-Doe-Agora*/
+
