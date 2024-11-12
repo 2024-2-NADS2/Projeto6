@@ -1,0 +1,196 @@
+
+/*Style Banner*/
+.banner{
+    width: 100%;
+    height: 500px;
+    background-image: url('/public/CriançadaFeliz.PNG');
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+.banner::before{
+    content: '';
+    background-color: rgba(0, 0, 0, 0.686);
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+.banner h1{
+    font-family: cursive;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+}
+/*Style Banner*/
+
+  
+
+/*Style Container-Contato*/
+.container-contato{
+    margin-top: 50px;
+    width: 100%;
+}
+.container-contato .container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+.container-contato .container .txt-contato{
+    width: 50%;
+}
+.container-contato .container .txt-contato h1{
+    letter-spacing: 1px;
+    font-weight: 300;
+    color: #00A8A0;
+    font-size: 50px;
+    padding-bottom: 25px;
+}
+.container-contato .container .txt-contato p{
+    color:#82828E;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding-bottom: 50px;
+    width: 350px;
+}
+.container-contato .container .txt-contato .icons i{
+    width: 35px;
+    height: 35px;
+    background-color:#cecece;
+    color: #2b2b2b;
+    border-radius: 50%;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+.container-contato .container .txt-contato .icons{
+    display: flex;
+    gap: 25px;
+}
+.container-contato .container .txt-contato .icons i:hover{
+    background-color: rgba(0, 0, 0, 0.847);
+    color: #fff;
+}
+.container-contato .container .form-contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    border: 1px solid #cecece;
+    padding: 25px 0;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px 6px rgba(0, 0, 0, 0.046);
+}
+.container-contato .container .form-contato form{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.container-contato .container .form-contato form input{
+    border-radius: 5px;
+    width: 500px;
+    height: 50px;
+    border: 1px solid #82828E;
+    padding: 0 10px;
+}
+.container-contato .container .form-contato form textarea{
+    border-radius: 5px;
+    width: 500px;
+    height: 100px;
+    border: 1px solid #82828E;
+    padding: 10px 10px;
+    resize: none;
+}
+.container-contato .container .form-contato form button{
+    width: 500px;
+    height: 50px;
+    border: none;
+    background-color: #3f3f3f;
+    color: #fff;
+    font-weight: 300;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.container-contato .container .form-contato form button:hover{
+    background-color: #2b2b2b;
+}
+/*Style Container-Contato*/
+
+
+
+/*Style Container-Doe-Agora*/
+.container-doe-agora{
+    margin-top: 100px;
+    width: 100%;
+    height: 500px;
+    background-image: url('/public/criançasestudando1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.container-doe-agora::before{
+    content: '';
+    background-color: #ed4e2e9e;
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+.container-doe-agora .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-doe-agora .container h1{
+    width: 65%;
+    text-align: center;
+    font-family: cursive;
+    color: #fff;
+    font-size: 40px;
+}
+.container-doe-agora .container button{
+    margin-top: 40px;
+    width: 220px;
+    height: 60px;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    color: #EA4C2D;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.container-doe-agora .container button i{
+    padding: 0 5px;
+}
+.container-doe-agora .container button:hover{
+    transform: scale(1.10);
+}
+/*Style Container-Doe-Agora*/

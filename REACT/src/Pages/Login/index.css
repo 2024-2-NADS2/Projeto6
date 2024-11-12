@@ -1,0 +1,163 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body{
+    width: 100%;
+    height: 100vh;
+    background-image: url('/public/CriançadaFeliz.PNG');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body::before{
+    content: "";
+    background-color: rgba(0, 0, 0, 0.686);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+.container{
+    width: 50%;
+    height: 70%;
+    z-index: 10;
+    display: flex;
+    border-radius: 10px;    
+}
+.container .container-img{
+    width: 50%;
+    height: 100%;
+    background-color: #0c3f04;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9;
+    border-radius: 10px 0 0 0;
+}
+.container .container-img img{
+    width: 100%;
+    height: 80%;
+}
+
+.container .container-form{
+    width: 50%;
+    height: 100%;
+    background-color: #FFF;
+}
+.container .container-form h3{
+    text-align: center;
+    padding: 50px 0;
+    font-size: 40px;
+}
+.container .container-form h3::after{
+    content: '';
+    display: block;
+    width: 3rem;
+    height: 0.3rem;
+    background-color: #5cff43;
+    border-radius: 10px;
+    margin: 0 115px;
+}
+
+.container .container-form .form{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.div-input{
+    display: flex;
+    flex-direction: column;
+}
+.div-input input{
+    width: 250px;
+    height: 50px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #000001;
+}
+.div-input input:hover{
+    background-color: #eeeeee;
+}
+
+.div-button{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.div-button button{
+    width: 250px;
+    height: 50px;
+    border-radius:10px;
+    background-color: #5cff43;
+    cursor: pointer;
+    color: white;
+    font-weight: 900;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.322);
+    transition: all 0.3s ease;
+}
+.div-button button:hover{
+    opacity: 0.8;
+}
+.div-button a{
+    text-align: center;
+    color:black;
+}
+
+
+
+
+
+
+
+/* RESPONSIVIDADE */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .container .container-img {
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+    }
+    .container .container-img img{
+        width: 220px;
+    }
+
+    .container .container-form {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .container .container-form h3 {
+        font-size: 1.5rem;
+        padding: 15px 0;
+    }
+
+    .div-input input {
+        width: 100%;
+    }
+
+    .div-button button {
+        width: 100%;
+    }
+}
+
