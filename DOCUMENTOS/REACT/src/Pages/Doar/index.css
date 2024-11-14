@@ -1,0 +1,389 @@
+
+/*Style Banner-Como-Doar*/
+.banner-como-doar{
+    width: 100%;
+    height: 500px;
+    background-image: url('/public/CriançasLendoLivro.png');
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+.banner-como-doar::before{
+    content: '';
+    background-color: rgba(0, 0, 0, 0.686);
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+.banner-como-doar{
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+}
+.banner-como-doar h1{
+    font-family: cursive;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+/*Style Banner-Como-Doar*/
+
+
+/*Style Main-txt*/
+.main-txt{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 100px;
+}
+.main-txt h1{
+    font-family: cursive;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #162C5A;
+    padding-bottom: 15px;
+}
+.main-txt h3{
+    color: #00A8A0;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 25px;
+    padding-bottom: 10px;
+    font-family: "Crafty Girls", cursive;
+}
+.main-txt p{
+    color: #82828E;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+/*Style Main-txt*/
+
+
+/*Style Como-Doar*/
+.secao-como-doar{
+    margin-top: 50px;
+}
+.secao-como-doar h1{
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #162C5A;
+}
+.secao-como-doar .container{
+    display: flex;
+    padding: 50px 100px;
+    gap: 50px;
+}
+.secao-como-doar .container .box-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:#00A8A0;
+    border-radius: 15px;
+    width: 100%;
+    height: 300px;
+    box-shadow: 0px 2px 4px 6px rgba(0, 0, 0, 0.166);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.secao-como-doar .container .box-container:hover{
+    transform: scale(1.05);
+}
+.secao-como-doar .container .box-container i{
+    font-size: 50px;
+    color:#FFD223;
+}
+.secao-como-doar .container .box-container h3{
+    font-size: 25px;
+    font-family: "Crafty Girls", cursive;
+    font-weight: 900;
+    letter-spacing: 1px;
+    padding: 15px 0;
+    color: #fff;
+}
+.secao-como-doar .container .box-container p{
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.788);
+    width: 80%;
+}
+/*Style Como-Doar*/
+
+
+
+/*Style faca-sua-doaçao*/
+.faca-sua-doacao{
+    margin-top: 50px;
+}
+.faca-sua-doacao h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: #162C5A;
+    margin-bottom: 50px;
+}
+.faca-sua-doacao h1 span{
+    font-weight: 600;
+}
+.faca-sua-doacao h3{
+    text-align: center;
+    font-size: 25px;
+    font-family: "Crafty Girls", cursive;
+    letter-spacing: 1px;
+    color: #00A8A0;
+}
+.faca-sua-doacao .container{
+    margin-top: 25px;
+    display: flex;
+    padding: 0px 100px;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.faca-sua-doacao .container .box-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: calc(33.33% - 50px);
+    margin-bottom: 25px;
+}
+.faca-sua-doacao .container .box-container h3{
+    padding-bottom: 15px;
+    color: rgba(0, 0, 0, 0.848);
+}
+.faca-sua-doacao .container .box-container h3 span{
+    font-size: 50px;
+    color: black;
+}
+.faca-sua-doacao .container .box-container p{
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.788);  
+    width: 80%; 
+    padding-bottom: 25px; 
+}
+.faca-sua-doacao .container .box-container button{
+    width: 80%;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    background-color: #FFD223;
+    letter-spacing: 1px;
+    font-weight: 800;
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.faca-sua-doacao .container .box-container button:hover{
+    background-color: #00A8A0;
+}
+/*Style faca-sua-doaçao*/
+
+
+
+/*Style planos-avulso*/
+.planos-avulso h1{
+    text-align: center;
+    font-size: 25px;
+    font-family: "Crafty Girls", cursive;
+    letter-spacing: 1px;
+    color: #00A8A0;
+    margin-top: 50px;
+}
+.planos-avulso .container{
+    display: flex;
+    margin-top: 50px;
+    padding: 0 100px;
+    gap: 50px;
+}
+.planos-avulso .container .box-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;   
+}
+.planos-avulso .container .box-container i{
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+.planos-avulso .container .box-container h3{
+    padding-bottom: 15px;
+    color: rgba(0, 0, 0, 0.848);
+}
+.planos-avulso .container .box-container p{
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.788);  
+    width: 80%; 
+    padding-bottom: 25px;   
+}
+.planos-avulso .container .box-container button{
+    width: 80%;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    background-color: #FFD223;
+    letter-spacing: 1px;
+    font-weight: 800;
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;   
+}
+.planos-avulso .container .box-container button:hover{
+    background-color: #00A8A0;
+}
+/*Style planos-avulso*/
+
+
+
+
+
+/*Style oque-estamos-ajudando*/
+.oque-estamos-ajudando{
+    margin-top: 100px;
+    width: 100%;
+    height: 500px;
+    background-image: url('/public/CriançasEscrevendo.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+.oque-estamos-ajudando::before{
+    content: '';
+    background-color:#ed4e2e9e;
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.oque-estamos-ajudando .container{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.oque-estamos-ajudando .container h1{
+    color: #fff;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 45px;
+    font-family: cursive;
+}
+.oque-estamos-ajudando .container .container-ajuda{
+    margin-top: 50px;
+    display: flex;
+    padding: 0 100px;
+    gap: 50px;
+}
+.oque-estamos-ajudando .container .container-ajuda .box-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #D4C8C6;
+    border-radius: 15px;
+    opacity: 0.8;
+    transition: all 0.3s ease;
+}
+.oque-estamos-ajudando .container .container-ajuda .box-container:hover{
+    transform: scale(1.05);
+    background-color: #fff;
+}
+.oque-estamos-ajudando .container .container-ajuda .box-container i{
+    font-size: 35px;
+    padding: 15px 0;
+    color: rgba(0, 0, 0, 0.848);
+}
+.oque-estamos-ajudando .container .container-ajuda .box-container h3{
+    padding-bottom: 15px;
+    color: rgba(0, 0, 0, 0.848);
+    width: 50%;
+    letter-spacing: 0.5px;
+    font-family: cursive;
+}
+.oque-estamos-ajudando .container .container-ajuda .box-container p{
+    width: 80%;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+}
+/*Style oque-estamos-ajudando*/
+
+
+
+
+
+/*Style section-faça-parte */
+.section-faça-parte{
+    width: 100%;
+    height: 250px;
+    background-color: #EFEFEF;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30%;
+}
+.section-faça-parte .txt-h1{
+    display: flex;
+    flex-direction: column;
+}
+.section-faça-parte .txt-h1 h1{
+    font-size: 70px;
+    font-family:cursive;
+    color: #4D4391;
+    font-weight: 300;
+}
+.section-faça-parte .txt-h1 h3{
+    font-family:cursive;
+    color: #162C5A;
+    font-size: 30px;
+    font-weight: 600;
+}
+.section-faça-parte .btn-doar button{
+    border: none;
+    width: 140px;  
+    height: 40px; 
+    font-size: 12px;
+   font-weight: 700;
+   color:#162C5A;
+   background-color: #FFD223;
+   cursor: pointer;
+   border-radius: 25px;   
+   transition: all 0.3s ease;
+}
+.section-faça-parte .btn-doar button:hover{
+    background-color: #ffda45;
+}
+/*Style section-faça-parte */
